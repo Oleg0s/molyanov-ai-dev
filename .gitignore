@@ -34,3 +34,6 @@ tmp/
 # Local settings
 settings.json
 settings.local.json
+
+.idea
+.venv
