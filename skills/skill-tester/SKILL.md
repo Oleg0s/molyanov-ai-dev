@@ -75,7 +75,7 @@ Trigger eval queries prepared.
 
 ### 2a. Setup
 
-1. Create workspace: `~/.claude/skill-tests/{skill-name}/iteration-{N}/`
+1. Create workspace: `./.claude/skill-tests/{skill-name}/iteration-{N}/`
    (N = 1 for first run, increment for re-runs)
 2. Save test plan to workspace:
    - `evals.json` with all prompts and assertions
@@ -248,7 +248,7 @@ The report includes:
 6. **Scripts to bundle** — if repeated code found across transcripts
 7. **Recommendations** — priority-ordered specific fixes for skill-master
 
-Save to: `~/.claude/skill-tests/{skill-name}/reports/{timestamp}-report.md`
+Save to: `./.claude/skill-tests/{skill-name}/reports/{timestamp}-report.md`
 
 Show report to user: "Here's the test report. Key findings: [summary].
 The report is at [path] — you can share it with skill-master to apply fixes."

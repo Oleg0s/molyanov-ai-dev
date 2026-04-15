@@ -190,10 +190,10 @@ work/{feature}/
 
 Completed features are archived to `work/completed/{feature}/`.
 
-### Global Structure `~/.claude/`
+### Global Structure `./.claude/`
 
 ```
-~/.claude/
+./.claude/
 ├── skills/               # Skills (methodology, workflow, quality)
 ├── agents/               # Agents (validators, reviewers, creators)
 ├── commands/             # Slash commands

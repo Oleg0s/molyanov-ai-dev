@@ -61,7 +61,7 @@ Analyze if additional information is needed based on user-spec and code research
 
 1. Copy template to feature folder:
    ```bash
-   cp ~/.claude/shared/work-templates/tech-spec.md.template work/{feature}/tech-spec.md
+   cp ./.claude/shared/work-templates/tech-spec.md.template work/{feature}/tech-spec.md
    ```
    Then edit sections one by one using Edit tool. This keeps template structure and examples visible while you work.
 

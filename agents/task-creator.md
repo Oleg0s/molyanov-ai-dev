@@ -25,7 +25,7 @@ Create task file for the specified task from tech-spec.
 - files_to_modify: List of code files to modify (from tech-spec's Implementation Tasks)
 
 **Optional:**
-- template_path: Path to task template (default: `~/.claude/shared/work-templates/tasks/task.md.template`)
+- template_path: Path to task template (default: `./.claude/shared/work-templates/tasks/task.md.template`)
 - files_to_read: List of code files to read for context (default: [])
 - depends_on: List of task dependency numbers (default: [])
 - wave: Wave number for parallel execution (default: 1)

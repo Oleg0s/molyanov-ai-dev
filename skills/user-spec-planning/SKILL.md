@@ -39,7 +39,7 @@ Conduct interview in Russian. Be thorough and opinionated — an engaged co-thin
 2. Get task description: "Опиши, что хочешь сделать."
 3. Determine work_type (feature / bug / refactoring) from description.
 4. Propose feature name (kebab-case), get user confirmation.
-5. Run `~/.claude/shared/scripts/init-feature-folder.sh {name}` — creates folder structure with interview.yml.
+5. Run `./.claude/shared/scripts/init-feature-folder.sh {name}` — creates folder structure with interview.yml.
 6. Update interview.yml: set metadata.started, metadata.status: in_progress, phase1_feature_overview.feature_name, phase1_feature_overview.work_type.
 
 **Checkpoint:** interview.yml exists with status in_progress, feature name confirmed.
@@ -100,7 +100,7 @@ Launch `interview-completeness-checker` subagent (Task tool, sonnet) with featur
 ### Phase 7: Create User Spec
 
 1. Copy template to working file:
-   - Copy `~/.claude/shared/work-templates/user-spec.md.template` → `work/{feature}/user-spec.md`
+   - Copy `./.claude/shared/work-templates/user-spec.md.template` → `work/{feature}/user-spec.md`
    - Edit sections one by one using Edit tool, replacing placeholders with interview data
    Reason: agent sees template structure and comments while editing each section, preventing drift from template format.
 2. Content rules:

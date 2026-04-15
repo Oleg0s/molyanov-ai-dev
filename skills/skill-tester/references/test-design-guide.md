@@ -54,7 +54,7 @@ Not abstract requests, but concrete and specific with enough detail to feel real
 "Поставь задачу на завтра: купить продукты в 10:00, уведомление за 30 минут."
 
 **Coding skill** (code-writing):
-"Реализуй задачу: ~/.claude/skill-tests/code-writing/scenarios/task-1.md"
+"Реализуй задачу: ./.claude/skill-tests/code-writing/scenarios/task-1.md"
 
 **Dialogue skill** (user-spec-planning):
 "Хочу добавить авторизацию через Google в мобильное приложение."
